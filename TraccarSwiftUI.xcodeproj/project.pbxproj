@@ -7,22 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71096C02C3B653C00385325 /* TraccarSwiftUI_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096BF2C3B653C00385325 /* TraccarSwiftUI_macOSApp.swift */; };
+		F71096C22C3B653C00385325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096C12C3B653C00385325 /* ContentView.swift */; };
+		F71096C42C3B653F00385325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71096C32C3B653F00385325 /* Assets.xcassets */; };
+		F71096C72C3B653F00385325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71096C62C3B653F00385325 /* Preview Assets.xcassets */; };
+		F71096CE2C3B671C00385325 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096CD2C3B671C00385325 /* LoginView.swift */; };
+		F71096CF2C3B684700385325 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D02BED2C3B609900FF4C56 /* LoginViewModel.swift */; };
+		F71096D12C3B688700385325 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096D02C3B688700385325 /* AuthViewModel.swift */; };
+		F71096D22C3B688700385325 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096D02C3B688700385325 /* AuthViewModel.swift */; };
+		F71096D42C3B690100385325 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096D32C3B690100385325 /* HomeView.swift */; };
+		F71096D82C3B6A3700385325 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096D72C3B6A3700385325 /* LoginView.swift */; };
+		F71096DA2C3B6A4500385325 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71096D92C3B6A4500385325 /* HomeView.swift */; };
+		F752ACD82C3B81C600BA8528 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752ACD72C3B81C600BA8528 /* StorageService.swift */; };
+		F752ACD92C3B81C600BA8528 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752ACD72C3B81C600BA8528 /* StorageService.swift */; };
+		F752ACDB2C3B8EC900BA8528 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752ACDA2C3B8DA600BA8528 /* HttpService.swift */; };
+		F752ACDC2C3B8ECA00BA8528 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752ACDA2C3B8DA600BA8528 /* HttpService.swift */; };
 		F7D02BDC2C3B593700FF4C56 /* TraccarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D02BDB2C3B593700FF4C56 /* TraccarSwiftUIApp.swift */; };
 		F7D02BDE2C3B593700FF4C56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D02BDD2C3B593700FF4C56 /* ContentView.swift */; };
 		F7D02BE02C3B593A00FF4C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D02BDF2C3B593A00FF4C56 /* Assets.xcassets */; };
 		F7D02BE42C3B593A00FF4C56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D02BE32C3B593A00FF4C56 /* Preview Assets.xcassets */; };
+		F7D02BEE2C3B609900FF4C56 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D02BED2C3B609900FF4C56 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraccarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71096BD2C3B653C00385325 /* TraccarSwiftUI-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TraccarSwiftUI-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71096BF2C3B653C00385325 /* TraccarSwiftUI_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraccarSwiftUI_macOSApp.swift; sourceTree = "<group>"; };
+		F71096C12C3B653C00385325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F71096C32C3B653F00385325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71096C62C3B653F00385325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71096C82C3B653F00385325 /* TraccarSwiftUI_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TraccarSwiftUI_macOS.entitlements; sourceTree = "<group>"; };
+		F71096CD2C3B671C00385325 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F71096D02C3B688700385325 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F71096D32C3B690100385325 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F71096D72C3B6A3700385325 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F71096D92C3B6A4500385325 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F752ACD72C3B81C600BA8528 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F752ACDA2C3B8DA600BA8528 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TraccarSwiftUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D02BDB2C3B593700FF4C56 /* TraccarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraccarSwiftUIApp.swift; sourceTree = "<group>"; };
 		F7D02BDD2C3B593700FF4C56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7D02BDF2C3B593A00FF4C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D02BE12C3B593A00FF4C56 /* TraccarSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TraccarSwiftUI.entitlements; sourceTree = "<group>"; };
 		F7D02BE32C3B593A00FF4C56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7D02BED2C3B609900FF4C56 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F71096BA2C3B653C00385325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7D02BD52C3B593700FF4C56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +70,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71096BE2C3B653C00385325 /* TraccarSwiftUI-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F71096D62C3B6A1600385325 /* Views */,
+				F71096BF2C3B653C00385325 /* TraccarSwiftUI_macOSApp.swift */,
+				F71096C12C3B653C00385325 /* ContentView.swift */,
+				F71096C32C3B653F00385325 /* Assets.xcassets */,
+				F71096C82C3B653F00385325 /* TraccarSwiftUI_macOS.entitlements */,
+				F71096C52C3B653F00385325 /* Preview Content */,
+			);
+			path = "TraccarSwiftUI-macOS";
+			sourceTree = "<group>";
+		};
+		F71096C52C3B653F00385325 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F71096C62C3B653F00385325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71096CC2C3B66EA00385325 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F71096CD2C3B671C00385325 /* LoginView.swift */,
+				F71096D32C3B690100385325 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F71096D62C3B6A1600385325 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F71096D72C3B6A3700385325 /* LoginView.swift */,
+				F71096D92C3B6A4500385325 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F752ACD62C3B81AB00BA8528 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F752ACD72C3B81C600BA8528 /* StorageService.swift */,
+				F752ACDA2C3B8DA600BA8528 /* HttpService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F7D02BCF2C3B593700FF4C56 = {
 			isa = PBXGroup;
 			children = (
-				F7D02BDA2C3B593700FF4C56 /* TraccarSwiftUI */,
+				F7D02BEA2C3B5FA100FF4C56 /* Shared */,
+				F7D02BDA2C3B593700FF4C56 /* TraccarSwiftUI-iOS */,
+				F71096BE2C3B653C00385325 /* TraccarSwiftUI-macOS */,
 				F7D02BD92C3B593700FF4C56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +131,23 @@
 		F7D02BD92C3B593700FF4C56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI.app */,
+				F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI-iOS.app */,
+				F71096BD2C3B653C00385325 /* TraccarSwiftUI-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7D02BDA2C3B593700FF4C56 /* TraccarSwiftUI */ = {
+		F7D02BDA2C3B593700FF4C56 /* TraccarSwiftUI-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F71096CC2C3B66EA00385325 /* Views */,
 				F7D02BDB2C3B593700FF4C56 /* TraccarSwiftUIApp.swift */,
 				F7D02BDD2C3B593700FF4C56 /* ContentView.swift */,
 				F7D02BDF2C3B593A00FF4C56 /* Assets.xcassets */,
 				F7D02BE12C3B593A00FF4C56 /* TraccarSwiftUI.entitlements */,
 				F7D02BE22C3B593A00FF4C56 /* Preview Content */,
 			);
-			path = TraccarSwiftUI;
+			path = "TraccarSwiftUI-iOS";
 			sourceTree = "<group>";
 		};
 		F7D02BE22C3B593A00FF4C56 /* Preview Content */ = {
@@ -69,12 +158,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F7D02BEA2C3B5FA100FF4C56 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F752ACD62C3B81AB00BA8528 /* Services */,
+				F7D02BEC2C3B604100FF4C56 /* ViewModels */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F7D02BEC2C3B604100FF4C56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7D02BED2C3B609900FF4C56 /* LoginViewModel.swift */,
+				F71096D02C3B688700385325 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7D02BD72C3B593700FF4C56 /* TraccarSwiftUI */ = {
+		F71096BC2C3B653C00385325 /* TraccarSwiftUI-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7D02BE72C3B593A00FF4C56 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI" */;
+			buildConfigurationList = F71096CB2C3B653F00385325 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI-macOS" */;
+			buildPhases = (
+				F71096B92C3B653C00385325 /* Sources */,
+				F71096BA2C3B653C00385325 /* Frameworks */,
+				F71096BB2C3B653C00385325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TraccarSwiftUI-macOS";
+			productName = "TraccarSwiftUI-macOS";
+			productReference = F71096BD2C3B653C00385325 /* TraccarSwiftUI-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D02BD72C3B593700FF4C56 /* TraccarSwiftUI-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D02BE72C3B593A00FF4C56 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI-iOS" */;
 			buildPhases = (
 				F7D02BD42C3B593700FF4C56 /* Sources */,
 				F7D02BD52C3B593700FF4C56 /* Frameworks */,
@@ -84,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = TraccarSwiftUI;
+			name = "TraccarSwiftUI-iOS";
 			productName = TraccarSwiftUI;
-			productReference = F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI.app */;
+			productReference = F7D02BD82C3B593700FF4C56 /* TraccarSwiftUI-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +223,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					F71096BC2C3B653C00385325 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					F7D02BD72C3B593700FF4C56 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -117,12 +244,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7D02BD72C3B593700FF4C56 /* TraccarSwiftUI */,
+				F7D02BD72C3B593700FF4C56 /* TraccarSwiftUI-iOS */,
+				F71096BC2C3B653C00385325 /* TraccarSwiftUI-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F71096BB2C3B653C00385325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71096C72C3B653F00385325 /* Preview Assets.xcassets in Resources */,
+				F71096C42C3B653F00385325 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7D02BD62C3B593700FF4C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +272,97 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F71096B92C3B653C00385325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71096D22C3B688700385325 /* AuthViewModel.swift in Sources */,
+				F71096C22C3B653C00385325 /* ContentView.swift in Sources */,
+				F71096C02C3B653C00385325 /* TraccarSwiftUI_macOSApp.swift in Sources */,
+				F71096DA2C3B6A4500385325 /* HomeView.swift in Sources */,
+				F71096D82C3B6A3700385325 /* LoginView.swift in Sources */,
+				F752ACDC2C3B8ECA00BA8528 /* HttpService.swift in Sources */,
+				F71096CF2C3B684700385325 /* LoginViewModel.swift in Sources */,
+				F752ACD92C3B81C600BA8528 /* StorageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7D02BD42C3B593700FF4C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71096D12C3B688700385325 /* AuthViewModel.swift in Sources */,
 				F7D02BDE2C3B593700FF4C56 /* ContentView.swift in Sources */,
 				F7D02BDC2C3B593700FF4C56 /* TraccarSwiftUIApp.swift in Sources */,
+				F71096D42C3B690100385325 /* HomeView.swift in Sources */,
+				F71096CE2C3B671C00385325 /* LoginView.swift in Sources */,
+				F752ACDB2C3B8EC900BA8528 /* HttpService.swift in Sources */,
+				F7D02BEE2C3B609900FF4C56 /* LoginViewModel.swift in Sources */,
+				F752ACD82C3B81C600BA8528 /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F71096C92C3B653F00385325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TraccarSwiftUI-macOS/TraccarSwiftUI_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YUUW8QNH75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.example.TraccarSwiftUI-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F71096CA2C3B653F00385325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TraccarSwiftUI-macOS/TraccarSwiftUI_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YUUW8QNH75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.example.TraccarSwiftUI-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F7D02BE52C3B593A00FF4C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,10 +482,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TraccarSwiftUI/TraccarSwiftUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "TraccarSwiftUI-iOS/TraccarSwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = YUUW8QNH75;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -292,10 +508,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.example.TraccarSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,10 +521,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TraccarSwiftUI/TraccarSwiftUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "TraccarSwiftUI-iOS/TraccarSwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TraccarSwiftUI-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = YUUW8QNH75;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -330,16 +547,26 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.example.TraccarSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F71096CB2C3B653F00385325 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71096C92C3B653F00385325 /* Debug */,
+				F71096CA2C3B653F00385325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F7D02BD32C3B593700FF4C56 /* Build configuration list for PBXProject "TraccarSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -349,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7D02BE72C3B593A00FF4C56 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI" */ = {
+		F7D02BE72C3B593A00FF4C56 /* Build configuration list for PBXNativeTarget "TraccarSwiftUI-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7D02BE82C3B593A00FF4C56 /* Debug */,
